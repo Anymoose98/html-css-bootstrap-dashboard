@@ -93,7 +93,7 @@ contenuto principale
 
 .bordo-grigio{
     padding: 5px;
-    border: 1px solid grey;
+    border: 2px solid rgb(240, 240, 240);;
     border-radius: 7px;
 }
 
