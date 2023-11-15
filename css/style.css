@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 
 .border-no{
     border: none;
@@ -27,9 +31,6 @@
 /*************************
 HEADER 
 **************************/
-.contenuto-header{
-  
-}
 
 
 /*************************
@@ -41,6 +42,13 @@ nav{
     background-image: url(../img/sidebar-bg.png);
     background-size: cover;
     background-color: rgb(5, 30, 52)
+}
+
+.row-nav{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 30px);
+    justify-content: space-between;
 }
 
 /*************************

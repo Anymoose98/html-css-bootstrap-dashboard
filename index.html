@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -21,14 +24,14 @@
                 <div class="col-8">
                     <div class="contenuto-header">
                         <div class="input-group my-3 width-100">
-                            <span class="input-group-text bg-grey"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <input type="text" class="form-control bg-grey" placeholder="Prova a cercare: Lezioni di Laravel" aria-describedby="basic-addon1">
+                            <span class="input-group-text bg-grey boder-end-0"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="text" class="form-control bg-grey border-start-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-describedby="basic-addon1">
                           </div>
                     </div>
                 </div>
                 <div class="col-2">
                     <div class="contenuto-header d-flex justify-content-end">
-                        <i class="fa-solid fa-list mx-2"></i>
+                        <i class="fa-solid fa-list mx-2 "></i>
                         <i class="fa-solid fa-circle-question mx-2"></i>
                         <i class="fa-solid fa-ellipsis-vertical mx-2"></i>
                         <i class="fa-solid fa-bell mx-2 arancione"></i>
@@ -42,7 +45,53 @@
     <div class="d-flex">
         <!-- menu laterale -->
         <nav>
+            <div class="container-fluid">
+                <div class="row-nav">
+                    <div>
+                        <div class="contenuto-laterale text-white p-3">
+                            <div class="d-flex align-items-center">
+                                <div class="col-6">
+                                    <i class="fa-solid fa-house"></i>    
+                                </div>
+                                <div class="col-6">
+                                    <span class=""> Home</span>
+                                </div>
+                            </div>
 
+                            <div class="d-flex align-items-center">
+                                <div class="col-6">
+                                    <i class="fa-solid fa-chart-simple"></i>
+                                </div>
+                                <div class="col-6">
+                                    <span class=""> Stats</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="col-6">
+                                    <i class="fa-solid fa-signal"></i>
+                                </div>
+                                <div class="col-6">
+                                    <span class=""> Signals</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    <div class="contenuto-laterale text-white p-3">
+                           <div class="d-flex align-items-center">
+                              <div class="col-6">
+                                  <i class="fa-solid fa-gear"></i>
+                              </div>
+                            <div class="col-6">
+                                 <span class=""> Admin</span>
+                            </div>
+                         </div> 
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
         </nav>
 
         <!-- contenuto principale -->
