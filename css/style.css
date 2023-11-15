@@ -7,6 +7,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.grassetto{
+    font-weight: 900;
+}
 
 .border-no{
     border: none;
@@ -59,8 +62,30 @@ contenuto principale
     width: calc(100% - 150px);
 }
 
+.border-white{
+    border-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.padding-bottone{
+    padding: 0px 2px;
+}
+
 /* Dettagli studente e registrazione */
 .contenuto-nuovo-studente{
-    height: 150px;
     width: 100%;
+}
+
+.bordo-grigio{
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+
+#tabella-width{
+    width: 50%;
+}
+.class-avatar{
+    height: 30px;
 }
