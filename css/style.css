@@ -42,7 +42,9 @@ body{
 /*************************
 HEADER 
 **************************/
-
+#logo-boolean{
+    height: 40px;
+}
 
 /*************************
 NAV
@@ -73,7 +75,10 @@ contenuto principale
 
 .container-principale{
     width: calc(100vw - 150px);
+}
 
+#order-primo{
+    order: 3;
 }
 
 .border-white{
@@ -97,9 +102,49 @@ contenuto principale
     border-radius: 7px;
 }
 
+.border-bianco{
+    border: 1px solid white;
+}
+
 #tabella-width{
     width: 50%;
 }
 .class-avatar{
     height: 25px;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.larghezza-offcanvas{
+    width: 60vw;
+}
+
+
+
+@media screen and (max-width:990px) {
+    nav{
+        width: 50px;
+    }
+
+    .container-principale{
+        width: calc(100vw - 50px);
+    }
+    
+    #tabella-width{
+        width: 30%;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .row-nav{
+        align-items: center;
+    }
+
+    #order-primo{
+        order: -1;
+    }
 }
